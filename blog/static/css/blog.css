@@ -2,9 +2,6 @@ h1 a {
     color: #FCA205;
 }
 
-body {
-    padding-left: 15px;
-}
 
 h1 a {
     color: #FCA205;
@@ -12,7 +9,7 @@ h1 a {
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #6CB4EE;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -28,7 +25,8 @@ h1 a {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Italiana';
+		color: #000000;
 }
 
 .date {
@@ -51,7 +49,10 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+    border: solid 2px #6CB4EE;
+    padding: 15px;
+		border-radius: 5px;
 }
 
 .post h1 a, .post h1 a:visited {
