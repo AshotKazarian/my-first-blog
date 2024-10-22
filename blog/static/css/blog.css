@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url("../images/background4.png");
+}
+
 h1 a {
     font-family: 'Italiana';
 		color: #ffffff;
@@ -6,7 +10,7 @@ h1 a {
 .page-header {
     background-color: #6CB4EE;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 30px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -16,7 +20,7 @@ h1 a {
 }
 
 .content {
-    margin-left: 40px;
+    margin: 0 40px 0 40px;
 }
 
 h2, h3, h4 {
@@ -48,6 +52,7 @@ h2, h3, h4 {
     border: solid 2px #6CB4EE;
     padding: 15px;
 		border-radius: 5px;
+		background-color: #ffffff;
 }
 
 .post h1 a, .post h1 a:visited {
